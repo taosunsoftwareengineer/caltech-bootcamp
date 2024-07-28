@@ -11,9 +11,6 @@ class Team:
     def remove_player(self, player_id):
         if player_id in self.players:
             self.players.remove(player_id)
-            
-    def book_ticket(self):
-        self.buyer_id = None
         
     def get_players(self):
         return self.players
